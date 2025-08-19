@@ -1,0 +1,33 @@
+# Core dependencies for Mnemosyne project
+
+# Database and vector search
+weaviate-client>=3.25.0
+
+# OpenAI API integration
+openai>=1.0.0
+
+# Environment variable management
+python-dotenv>=1.0.0
+
+# Audio processing and diarization
+pyannote-audio>=3.0.0
+openai-whisper>=20250625
+
+# Audio file manipulation
+librosa>=0.10.0
+soundfile>=0.12.0
+
+# Progress bars and utilities
+tqdm>=4.65.0
+
+# Data manipulation and analysis
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Web interface
+flask>=2.3.0
+
+# Additional dependencies that may be needed
+# ffmpeg-python>=0.2.0  # For audio conversion (optional, uses system ffmpeg)
+# torch>=2.0.0  # Required by whisper and pyannote-audio
+# torchaudio>=2.0.0  # Required by pyannote-audio

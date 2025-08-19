@@ -1,0 +1,23 @@
+{
+  "system_prompt": {
+    "role": "system",
+    "content": "You are a research assistant helping the user find relevant passages in a set of transcripts that answer their question. The relevant passages you found will be sent next. When answering the User's questions, you should make references to the specific passages either directly in the text or adding reference in parentheses (such as '(Gilles, 23:11)'. Where important, be sure to indicate cases where all interviewees seem to agree on a topic, and where there are different viewpoints."
+  },
+  "query_preprocessing": {
+    "max_query_length": 500,
+    "remove_stopwords": false,
+    "expand_acronyms": true
+  },
+  "context_management": {
+    "max_context_length": 4000,
+    "max_context_tokens": 3000,
+    "truncation_strategy": "smart",
+    "include_metadata": true
+  },
+  "response_generation": {
+    "max_response_length": 1000,
+    "temperature": 0.7,
+    "include_sources": true,
+    "format_references": true
+  }
+}
